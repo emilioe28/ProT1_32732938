@@ -1,0 +1,156 @@
+/* body {
+    background-color: #eaf2e3;
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+} */
+    
+
+    .texto-centrado {
+        text-align: center; /* Centra el texto */
+        font-weight: bold; /* Pone el texto en negrita */
+        font-style: italic; /* Pone el texto en cursiva */
+        font-size: 20px;
+    }
+
+    .texto-centrado2 {
+        text-align: center; /* Centra el texto */
+        font-weight: bold; /* Pone el texto en negrita */
+        font-style: italic; /* Pone el texto en cursiva */
+        color: black;
+    }
+
+
+    .contenedor-estilo-div {
+        background-color: #f0f0f0; /* Color de fondo */
+        padding: 20px; /* Espaciado interno */
+        border: 1px solid #ccc; /* Borde */
+        border-radius: 5px; /* Radio de borde para esquinas redondeadas */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+
+
+    header {
+        background-color: #459bbd;
+        color: #fff;
+        text-align: center;
+        padding: 20px;
+        }
+
+        section {
+        padding: 20px; /* espaciado para la sección de 20 pixeles */}
+
+        footer {
+        background-color: #459bbd; /* Color de fondo del footer */
+        color: #fff;
+        padding: 20px 0; }
+
+        .footer-content {
+        max-width: 1500px; /* Ancho máximo del contenido del footer */
+        margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
+        text-align: center; }
+
+    nav {
+            background-color: #4caf50;
+            padding: 10px;
+        }
+           
+    nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+    }
+            
+    nav ul li {
+            display: inline-block;
+            margin-right: 20px;
+    }
+            
+    nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border-radius: 5px;
+    }
+            
+    nav ul li a:hover {
+            background-color: #459bbd;
+    }
+                
+    img {
+        display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+        margin: 0 auto; /* Centrar las imágenes horizontalmente */
+        max-width: 100%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+        border: 3px solid #69bd45; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+        border-radius: 10px; /* Borde redondeado de 10px para suavizar el contorno */
+        }
+
+    .img1 {
+            display: block; /* Para eliminar el espacio adicional que algunos navegadores agregan a las img. */
+            margin: 0 auto; /* Centrar las imágenes horizontalmente */
+            max-width: 25%; /* Asegurar que las imágenes no excedan el ancho del contenedor */
+            border: 3px solid #45a1bd; /* Contorno de 3px con un color verde (#69bd45) alrededor de la img.*/
+            border-radius: 30px; /* Borde redondeado de 10px para suavizar el contorno */
+            }
+
+    .texto-centrado-footer {
+                text-align: center; /* Centra el texto */
+                font-style: italic; /* Pone el texto en cursiva */
+                color: rgb(28, 28, 31);
+            }
+
+
+    .frase { 
+        font-size:30px;
+        color:rgb(0, 0, 8);
+        font-style: italic;
+        font-weight: bold;
+    }
+
+    .contenedor { 
+        margin:0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    i{
+        text-align: center;
+        font-size: 25px;
+        color: black;
+        margin: 20px;
+        border-radius: 50%;
+        padding: 15px;
+        box-shadow: 0px, 5px, 10px, rgb(0, 0, 0, .35);
+        transition: .3s ease;
+    }
+
+    .fa-twitter:hover{
+        background-color: #1da1f2;
+        color: white;
+        box-shadow: 0 0 15px #1da1f2,
+                    0 0 45px #1da1f2,
+                    0 0 75px #1da1f2,
+                    0 0 115px #1da1f2;
+    }
+
+    .fa-facebook:hover{
+        background-color: #1294e6;
+        color: white;
+        box-shadow: 0 0 15px #1294e6,
+                    0 0 45px #1294e6,
+                    0 0 75px #1294e6,
+                    0 0 115px #1294e6;
+    }
+
+    .fa-instagram:hover{
+        background-color: #c43b4d;
+        color: white;
+        box-shadow: 0 0 15px #c43b4d,
+                    0 0 45px #c43b4d,
+                    0 0 75px #c43b4d,
+                    0 0 115px #c43b4d;
+    }
